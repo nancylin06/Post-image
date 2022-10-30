@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    background-color: blueviolet;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.profile{
+    border: 2px solid #bf99f2;
+    border-radius: 50px;
+}
+
+.profile:active{
+    border: 2px solid #bf99f2;
+    border-radius: 5px;
+}
+
+.profile img {
+    border-radius: 50px;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.change {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    border: 2px solid #bf99f2;
+    color: #fbfaff;
+    background-color: blueviolet;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.change:active {
+    background-color: #fbfaff;
+    color: blueviolet;
+    border: 3px solid #bf99f2;
+}
+
+.change:hover {
+    border: 3px solid #bf99f2;
+}
+
+.edit {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.long{
+    width: 370px;
+}
+
+.offcanvas-header{
+    height: 58.5px;
+}
+
+.bts{
+    margin-top: 550px;
+}
+
+.bar{
+    height: 50px;
+}
+
+.card-footer{
+    position: relative;
+    height: 50px;
+}
+
+.left{
+    position:absolute;
+    top: 13px;
+    left: 30px;
+}
+
+.right{
+    position:absolute;
+    top: 13px;
+    right: 30px;
+}
+
+i{
+    color: blueviolet;
+}
